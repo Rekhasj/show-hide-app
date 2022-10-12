@@ -1,0 +1,48 @@
+.container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    flex-direction: row;
+  }
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.card-container {
+  display: flex;
+}
+.button {
+  color: #dd1264;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-size: 8px;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 30px;
+}
+.name-container {
+  background-color: #fddddb;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+.name {
+  font-size: 10px;
+  text-align: center;
+}
